@@ -20,11 +20,5 @@ class LoginActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        backToMainBtn = findViewById(R.id.loginBackToMainBtn)
-
-        backToMainBtn.setOnClickListener() {
-            finish()
-        }
     }
 }
